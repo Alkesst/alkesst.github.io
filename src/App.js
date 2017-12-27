@@ -1,16 +1,52 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
+import PropTypes from 'prop-types';
 import './App.css';
+import Routes from "./Routes";
+
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to my personal page.</h1>
-        </header>
-        <p className="App-intro">
+    static propTypes = {
+        match: PropTypes.object.isRequired,
+        location: PropTypes.object.isRequired,
+        history: PropTypes.object.isRequired
+    };
+
+    render() {
+        const { location } = this.props;
+        return (
+            <div className="App">
+                <header className="App-header">
+                    <h1 className="App-title">Alkesst's Page</h1>
+                </header>
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <ul className="navbar-nav">
+                        <li className={`nav-item ${location.pathname === "/" ? "active" : ""}`}>
+                            <Link className="nav-link" to="/">Home</Link>
+                        </li>
+                        <li className={`nav-item ${location.pathname === "/about" ? "active" : ""}`}>
+                            <Link className="nav-link" to="/about">Who am I?</Link>
+                        </li>
+                        <li className={`nav-item ${location.pathname === "/projects" ? "active" : ""}`}>
+                            <Link className="nav-link" to="/projects">Projects</Link>
+                        </li>
+                        <li className={`nav-item ${location.pathname === "/contact" ? "active" : ""}`}>
+                            <Link className="nav-link" to="/contact">Contact</Link>
+                        </li>
+                    </ul>
+                </nav>
+                <div className="App-intro container">
+                    <Routes/>
+                </div>
+
+            </div>
+        );
+    }
+}
+
+export default withRouter(App);
+/*<p className="App-intro">
           The page is currently under construction. The page will be available in a future.
         </p>
         <p className="App-intro">
@@ -19,10 +55,4 @@ class App extends Component {
             my <a href="http://last.fm/user/a13k5g">Last.fm</a>
         </p>
         <p>For any suggestion, you can mail me or tweet me. I'll try to answer as soon as I can.</p>
-        <footer>Thanks for visiting :)</footer>
-      </div>
-    );
-  }
-}
-
-export default App;
+        <footer>Thanks for visiting :)</footer>*/
