@@ -13,3 +13,11 @@
     display: block;
     padding-bottom: 100%;
 }
+.card-img-top {
+    transition: transform .25s ease;
+    transform: none;
+}
+
+.card-img-top:hover {
+    transform: scale(0.9) perspective(90px) translateZ(-30px) rotate3d(0, 1, -1, 10deg);
+}

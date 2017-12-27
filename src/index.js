@@ -6,6 +6,10 @@ import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import {HashRouter} from "react-router-dom";
 
+window.$ = require('jquery');
+window.Popper = require('popper.js');
+require('bootstrap');
+
 ReactDOM.render(
     <HashRouter>
         <App />
