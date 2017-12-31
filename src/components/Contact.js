@@ -5,7 +5,7 @@ import contact from '../styles/contact.css';
 import gmail from '../gmailLogo.png';
 import telegram from '../telegramLogo.png';
 
-const Card = ({ imgUrl, text, link, description }) => <div className="col-12 col-sm-3">
+const Card = ({ imgUrl, text, link, description }) => <div className="col-12 col-sm-3" id="contact">
     <div className="card">
         <a href={link} target="_blank" rel="noopener noreferrer">
             <div className="square">
