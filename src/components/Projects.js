@@ -17,13 +17,13 @@ const Card = ({projectName, title, text, link, tryProject, children, moreInfo, i
                 <h2 className="card-title">{projectName}</h2>
                 <h6 className="card-subtitle mb-2 text-muted">{title}</h6>
                 <p className="card-text">{text}{children}</p>
-                <a href={link} target="_blank" rel="noreferrer noopener" className="card-link">See project </a>
+                <a href={link} target="_blank" rel="noreferrer noopener" className="card-link">See project</a>
                 {tryProject?
-                    <a href={tryProject} target="_blank" rel="noreferrer noopener" className="card-link">Try this project </a>
+                    <a className="card-link" href={tryProject} target="_blank" rel="noreferrer noopener">Try this project</a>
                     :
                     null}
                 {moreInfo?
-                    <Link to={moreInfo}>More Info </Link>
+                    <Link className="card-link" to={moreInfo}>More Info</Link>
                     :
                     null}
             </div>
