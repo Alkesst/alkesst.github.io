@@ -52,13 +52,13 @@ class DevChat extends Component {
                 </p>
                 <h2>Demo time!</h2>
                 <p className="text-justify">Here are some images showing the basic behaviour of the chat</p>
-                <img src={demo4} alt="demo4"/>
+                <img src={demo4} alt="demo4" width="100%"/>
                 <p>This is the user view</p>
-                <img src={demo3} alt="demo3"/>
+                <img src={demo3} alt="demo3" width="100%"/>
                 <p>This is how the server looks like</p>
-                <img src={demo2} alt="demo2"/>
+                <img src={demo2} alt="demo2" width="100%"/>
                 <p>This is the user view when the server shuts down</p>
-                <img src={demo1} alt="demo1"/>
+                <img src={demo1} alt="demo1" width="100%"/>
                 <p>This is the server view when an user leaves</p>
             </div>
         );
