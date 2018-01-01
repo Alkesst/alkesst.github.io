@@ -26,7 +26,7 @@ export default () =>
             Then my brother show me the content of the packets, and we could read the messages we were sending.
             So, I thought, "Hey, why do not we cypher the packets sent by the chat?" And that's it.
         </p>
-        <h5 className="text-justify">Why did you used C</h5>
+        <h5 className="text-justify">Why did you used C?</h5>
         <p className="text-justify">
             Same as before, because I wanted to learn a new programming language and, in that year I was going to use
             this language.
