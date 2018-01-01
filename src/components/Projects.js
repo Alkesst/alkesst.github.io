@@ -63,4 +63,9 @@ export default () =>
             The page is currently in a private repository and is under construction. I'm doing this project with some
             grade colleagues.
         </Card>
+        <Card projectName="RPI Assembly" link="https://github.com/RPIAssembly"
+              title="Assembly code for ARM Architecture using a Raspberry Pi">
+            Is just some exercises made in class about assembly code for ARM Architecture. In this project you will find
+            code that uses an external library (wiringPi pins) and code that sets manually the output and input pins.
+        </Card>
     </div>
