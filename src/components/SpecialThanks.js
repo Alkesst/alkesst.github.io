@@ -1,7 +1,8 @@
 import React from 'react';
+import fame from '../styles/fame.css';
 
 export default () =>
-    <div>
+    <div id="fame" style={fame}>
         <h1 className="mb-4">Special thanks to:</h1>
         <h3 className="text-center text-justify mb-2">
             <a href="http://melchor9000.me" target="_blank" rel="noopener noreferrer">Melchor Garau Madrigal</a>

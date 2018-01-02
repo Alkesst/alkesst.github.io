@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import pytel from '../resources/pytel.png';
 import devChat from '../resources/Dev-Chat.png';
 import pytwe from '../resources/pytweBot.png';
+import projectStyle from '../styles/projects.css';
 
 /*mb-3 -> Margin bottom type 3*/
 const Card = ({projectName, title, text, link, tryProject, children, moreInfo, image }) =>
-    <div className="mb-3">
+    <div className="mb-3" id="projects" style={projectStyle}>
         <div className="card">
             <div className="card-body">
                 {image?
@@ -15,7 +16,7 @@ const Card = ({projectName, title, text, link, tryProject, children, moreInfo, i
                     null
                 }
                 <h2 className="card-title">{projectName}</h2>
-                <h6 className="card-subtitle mb-2 text-muted">{title}</h6>
+                <h6 className="card-subtitle mb-2">{title}</h6>
                 <p className="card-text">{text}{children}</p>
                 <a href={link} target="_blank" rel="noreferrer noopener" className="card-link">See project</a>
                 {tryProject?
@@ -51,7 +52,7 @@ export default () =>
             Also it tweets every 21:35, 0:00, 3:14 and 4:20 their respective comments associated with that hours.
             It also reacts to some patterns such as "when te pasa".
         </Card>
-        <Card projectName="Alkesst's page" link="http://github.com/alkesst/aslkesst.github.io" title="This page lol!"
+        <Card projectName="Alkesst's page" link="http://github.com/alkesst/alkesst.github.io" title="This page lol!"
         tryProject="#/projects">
             Is actually this page. Made with React, Redux and Bootstrap. Just a little page to let people know me and learn
             some JavaScript and its libraries.

@@ -1,17 +1,13 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  background: #10707f;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 75px;
   padding: 20px;
-  color: white;
+  color: turquoise;
 }
 
 .App-title {
@@ -21,9 +17,6 @@
 .App-intro {
   margin-top: 15px;
   margin-bottom: 20px;
+    color: palegreen;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}

@@ -7,7 +7,7 @@ import telegram from '../telegramLogo.png';
 
 const Card = ({ imgUrl, text, link, description }) => <div className="col-12 col-sm-3" id="contact">
     <div className="card">
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <a href={link} target="_blank" rel="noopener noreferrer" id="contact" style={contact}>
             <div className="square">
                 <div className="square-content">
                     <img className="card-img-top" src={imgUrl} alt={description}/>
@@ -29,7 +29,7 @@ export default () =>
         <div className="row">
             <Card imgUrl={octocat} text="GitHub" link="http://www.github.com/alkesst" description="GitHub octocat"/>
             <Card imgUrl={twitter} text="Twitter" link="http://twitter.com/alkesstt" description="Twitter logo"/>
-            <Card imgUrl={gmail} text="gmail" link="mailto:alec.augal@gmail.com" description="Gmail logo"/>
+            <Card imgUrl={gmail} text="Gmail" link="mailto:alec.augal@gmail.com" description="Gmail logo"/>
             <Card imgUrl={telegram} text="telegram" link="https://telegram.me/alkesst" description="Telegram logo"/>
         </div>
     </div>

@@ -1,6 +1,11 @@
 #contact .square {
     position: relative;
     width: 100%;
+   background: royalblue;
+}
+
+#contact .card{
+    border: none;
 }
 
 #contact .square-content {
@@ -8,6 +13,15 @@
     width: 100%;
     height: 100%;
 }
+
+#contact a{
+    color: mediumspringgreen;
+}
+
+#contact .card-body {
+    background: royalblue;
+}
+
 #contact .square:after {
     content: "";
     display: block;

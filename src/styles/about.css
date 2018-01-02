@@ -2,6 +2,10 @@
     margin-top: 25px;
 }
 
+#about a{
+    color: mediumspringgreen;
+}
+
 #text div {
     height: 100%;
 }

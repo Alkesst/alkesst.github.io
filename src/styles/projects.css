@@ -1,0 +1,29 @@
+#projects .card-text{
+    color: palegreen;
+}
+
+#projects a{
+    color: mediumspringgreen;
+}
+
+#projects .square {
+    position: relative;
+    width: 100%;
+    background: royalblue;
+}
+
+#projects .card{
+    border: none;
+}
+
+#projects .card-body {
+    background: royalblue;
+}
+
+#projects h6{
+    color: yellowgreen;
+}
+
+#projects h2{
+    color: springgreen;
+}
