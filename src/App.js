@@ -20,7 +20,7 @@ class App extends Component {
                 <header className="App-header">
                     <h1 className="App-title">Alkesst's Page</h1>
                 </header>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-dark">
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">

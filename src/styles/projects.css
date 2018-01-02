@@ -1,15 +1,15 @@
 #projects .card-text{
-    color: palegreen;
+    color: linen;
 }
 
 #projects a{
-    color: mediumspringgreen;
+    color: navajowhite;
 }
 
 #projects .square {
     position: relative;
     width: 100%;
-    background: royalblue;
+    background: #008975;
 }
 
 #projects .card{
@@ -17,13 +17,13 @@
 }
 
 #projects .card-body {
-    background: royalblue;
+    background: #008975;
 }
 
 #projects h6{
-    color: yellowgreen;
+    color: linen;
 }
 
 #projects h2{
-    color: springgreen;
+    color: lightgrey;
 }

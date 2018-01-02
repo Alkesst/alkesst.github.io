@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  background: #10707f;
+  background: #00BFA5;
+}
+
+nav{
+    background: #008975;
 }
 
 .App-header {
@@ -17,6 +21,6 @@
 .App-intro {
   margin-top: 15px;
   margin-bottom: 20px;
-    color: palegreen;
+    color: black;
 }
 
