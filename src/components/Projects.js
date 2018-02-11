@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import pytel from '../resources/pytel.png';
 import devChat from '../resources/Dev-Chat.png';
 import pytwe from '../resources/pytweBot.png';
+import hWorld from '../resources/firstWan.png';
 import projectStyle from '../styles/projects.css';
 
 /*mb-3 -> Margin bottom type 3*/
@@ -46,6 +47,12 @@ export default () =>
             handles editing non-sent messages. Project made
             with <a href="http://melchor9000.me" target="_blank" rel="noreferrer noopener">Melchor Garau</a>.
         </Card>
+        <Card projectName="Dev-Chat Desktop" link="https://github.com/Alkesst/Dev-ChatDesktop"
+              image={hWorld}
+            title="A chat made by developers, for developers. Desktop Edition">
+            A <a href="http://github.com/alkesst/dev-chat" rel="noreferrer noopener">Dev-Chat</a> interface being made
+            for desktop with Qt5 and C++11. Currently under construction. (Example in the right window).
+        </Card>
         <Card projectName="Pytwe bot" link="http://github.com/alkesst/pytwebot" title="Another twitter bot"
         tryProject="http://twitter.com/pytwe_bot" image={pytwe}>
             This bot is currently tweeting the whole Quixote by Cervantes. A typical spanish literary work.
@@ -57,16 +64,20 @@ export default () =>
             Is actually this page. Made with React, Redux and Bootstrap. Just a little page to let people know me and learn
             some JavaScript and its libraries.
         </Card>
-        <Card projectName="ConsejoInfUma page" link="https://github.com/ConsejoInfUMA"
+        <Card projectName="ConsejoInfUma page" link="https://github.com/ConsejoInfUMA/WebConsejoInfUMA"
               title="Web page for the Council of students of the higher technical engineering school of computer science">
             I dont even know if "Council of students of the higher technical engineering school of computer science"
-            is correct.
-            The page is currently in a private repository and is under construction. I'm doing this project with some
+            is correct. I'm doing this project with some
             grade colleagues.
         </Card>
         <Card projectName="RPI Assembly" link="https://github.com/RPIAssembly"
               title="Assembly code for ARM Architecture using a Raspberry Pi">
             Is just some exercises made in class about assembly code for ARM Architecture. In this project you will find
-            code that uses an external library (wiringPi pins) and code that sets manually the output and input pins.
+            code that uses an external library (wiringPi pins) and code that sets manually the output and input pins with
+            irq and ifq exceptions.
+        </Card>
+        <Card projectName="HackersWeek Webpage" link="https://github.com/ConsejoInfUMA/HackersWeekMalaga"
+              title="Official webpage for the Hackers Week event in Málaga">
+            Collaborator of the remake of the page.
         </Card>
     </div>
