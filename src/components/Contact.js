@@ -5,7 +5,7 @@ import contact from '../styles/contact.css';
 import gmail from '../gmailLogo.png';
 import telegram from '../telegramLogo.png';
 import linkedIn from '../linkedInLogo.png';
-import redditLogo from '../redditLogo.png';
+import steamLogo from '../steamLogo.png';
 
 const Card = ({ imgUrl, text, link, description }) => <div className="col-12 col-sm-2" id="contact">
     <div className="card">
@@ -35,7 +35,7 @@ export default () =>
             <Card imgUrl={telegram} text="telegram" link="https://telegram.me/alkesst" description="Telegram logo"/>
             <Card imgUrl={linkedIn} text="linkedId" link="https://es.linkedin.com/in/alejandro-garau-madrigal-54224114b"
                   description="LinkedIn Logo"/>
-            <Card imgUrl={redditLogo} text="Reddit" link="https://www.reddit.com/user/alkesst/"
-                description="Reddit Logo"/>
+            <Card imgUrl={steamLogo} text="Steam" link="http://steamcommunity.com/id/alkesst/"
+                description="Steam Logo"/>
         </div>
     </div>
