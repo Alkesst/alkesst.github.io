@@ -1,7 +1,7 @@
 #contact .square {
     position: relative;
     width: 100%;
-   background: #008975;
+   background: #00bba6;
 }
 
 #contact .card{
@@ -19,7 +19,7 @@
 }
 
 #contact .card-body {
-    background: #008975;
+    background: #00bba6;
 }
 
 #contact .square:after {

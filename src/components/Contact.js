@@ -4,8 +4,10 @@ import twitter from '../twitterLogo.png';
 import contact from '../styles/contact.css';
 import gmail from '../gmailLogo.png';
 import telegram from '../telegramLogo.png';
+import linkedIn from '../linkedInLogo.png';
+import redditLogo from '../redditLogo.png';
 
-const Card = ({ imgUrl, text, link, description }) => <div className="col-12 col-sm-3" id="contact">
+const Card = ({ imgUrl, text, link, description }) => <div className="col-12 col-sm-2" id="contact">
     <div className="card">
         <a href={link} target="_blank" rel="noopener noreferrer" id="contact" style={contact}>
             <div className="square">
@@ -31,5 +33,9 @@ export default () =>
             <Card imgUrl={twitter} text="Twitter" link="http://twitter.com/alkesstt" description="Twitter logo"/>
             <Card imgUrl={gmail} text="Gmail" link="mailto:alec.augal@gmail.com" description="Gmail logo"/>
             <Card imgUrl={telegram} text="telegram" link="https://telegram.me/alkesst" description="Telegram logo"/>
+            <Card imgUrl={linkedIn} text="linkedId" link="https://es.linkedin.com/in/alejandro-garau-madrigal-54224114b"
+                  description="LinkedIn Logo"/>
+            <Card imgUrl={redditLogo} text="Reddit" link="https://www.reddit.com/user/alkesst/"
+                description="Reddit Logo"/>
         </div>
     </div>
