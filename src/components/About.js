@@ -14,7 +14,7 @@ export default () =>
                     <h1>About me</h1>
                     <p>
                         My name is Alejandro but my friends call me whatever they want. I'm 20 years old and I was born in Palma
-                        de Mallorca, Balearic Islands. Nowadays I'm living in Antequera, Málaga.
+                        de Mallorca, Balearic Islands. Nowadays I'm studying in Málaga.
                     </p>
                 </div>
             </div>
@@ -22,7 +22,7 @@ export default () =>
         <div className='col-6' id="about" style={aboutStyle}>
             <p>
                 I moved to Málaga in 2016 to study in the university and I'm currently studying my second year
-                of Software Engineering at the University of Málaga.
+                of Software Engineering degree at the University of Málaga.
             </p>
         </div>
         <div className='col-6'>
@@ -45,8 +45,5 @@ export default () =>
         <div className="align-items-center" id='bigOne' style={aboutStyle}>
             <h3>And that's all!</h3>
             <img src={photo2} className='img-fluid' alt='img not found' title='Nice foto bro'/>
-            <p className="text-center"> Photo
-                by <a href="https://www.facebook.com/FotosBarbas/" target="_blank"
-                rel="noreferrer noopener">Borja Sánchez Cerro</a></p>
         </div>
     </div>
