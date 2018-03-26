@@ -16,7 +16,7 @@ export default () =>
                         <p className="card-text">
                             Here you will find projects I made
                         </p>
-                        <Link className="btn btn-outline-light" to="/MyProjects">Go!</Link>
+                        <Link className="btn btn-outline-dark" to="/MyProjects">Go!</Link>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@ export default () =>
                         <p className="card-text">
                             Here you will find projects I contributed
                         </p>
-                        <Link className="btn btn-outline-light" to="CollabProjects">Go!</Link>
+                        <Link className="btn btn-outline-dark" to="CollabProjects">Go!</Link>
                     </div>
                 </div>
             </div>

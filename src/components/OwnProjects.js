@@ -18,15 +18,15 @@ const Card = ({projectName, title, text, link, tryProject, children, moreInfo, i
                 <h2 className="card-title">{projectName}</h2>
                 <h6 className="card-subtitle mb-2">{title}</h6>
                 <p className="card-text">{text}{children}</p>
-                <a href={link} target="_blank" rel="noreferrer noopener" className="card-link btn btn-outline-light">
+                <a href={link} target="_blank" rel="noreferrer noopener" className="card-link btn btn-outline-dark">
                     See project</a>
                 {tryProject?
-                    <a className="card-link btn btn-outline-light" href={tryProject} target="_blank"
+                    <a className="card-link btn btn-outline-dark" href={tryProject} target="_blank"
                        rel="noreferrer noopener">Try this project</a>
                     :
                     null}
                 {moreInfo?
-                    <Link className="card-link btn btn-outline-light" to={moreInfo}>More Info</Link>
+                    <Link className="card-link btn btn-outline-dark" to={moreInfo}>More Info</Link>
                     :
                     null}
             </div>

@@ -33,7 +33,7 @@ export default () =>
         </div>
         <div className='col-12'>
             <p>
-                Besides that, I was collaborating with
+                Besides that, I've been collaborating with
                 the <a href="https://twitter.com/ConsejoInfUma" target="_blanck" rel="noopener noreferrer">
                     Students Council of the Higher School of Computer Engineering</a>
                 , organizing events such as

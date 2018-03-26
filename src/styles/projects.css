@@ -1,9 +1,9 @@
 #projects .card-text{
-    color: dimgrey;
+    color: #000000;
 }
 
 #projects a{
-    color: #6c6c6c;
+    color: #808080;
     /*color: navajowhite;*/
 }
 
