@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
 .App {
-  text-align: center;
+    text-align: center;
+    font-family: 'Lora', serif;
 }
 
 nav{
@@ -7,19 +11,21 @@ nav{
 }
 
 .App-header {
-  background-color: #222;
-  height: 75px;
-  padding: 20px;
-  color: turquoise;
+    background-color: #222;
+    height: 75px;
+    padding: 20px;
+    color: turquoise;
 }
 
 .App-title {
-  font-size: 1.5em;
+    font-size: 1.5em;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
 }
 
 .App-intro {
-  margin-top: 15px;
-  margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
     color: black;
 }
 

@@ -31,10 +31,18 @@ const Card = ({projectName, title, text, link, tryProject, children, moreInfo, i
         </div>
     </div>;
 
+function topFunction() {
+    window.scrollTo(0,0);
+}
+
 
 export default () =>
     <div>
         <h1>Project time!</h1>
+        <button className="btn btn-outline-info" onClick={topFunction} id="myBtn" title="Go to top">Go Top!</button>
+        <div className="row">
+            <Link className="btn btn-outline-info text" id="button" to="/projects">Go back!</Link>
+        </div>
         <Card projectName="HackersWeek" link="https://github.com/ConsejoInfUMA/HackersWeekMalaga"
               tryProject="https://hackersweek.es"
               title="Official webpage for the Hackers Week event in Málaga" image={hw}>

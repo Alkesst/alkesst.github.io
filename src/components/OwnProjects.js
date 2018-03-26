@@ -6,6 +6,7 @@ import pytwe from '../resources/pytweBot.png';
 import hWorld from '../resources/firstWan.png';
 import projectStyle from '../styles/projects.css';
 
+
 const Card = ({projectName, title, text, link, tryProject, children, moreInfo, image }) =>
     <div className="mb-3" id="projects" style={projectStyle}>
         <div className="card">
@@ -33,9 +34,28 @@ const Card = ({projectName, title, text, link, tryProject, children, moreInfo, i
         </div>
     </div>;
 
+
+/*window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}*/
+
+function topFunction() {
+    window.scrollTo(0,0);
+}
+
 export default () =>
     <div>
         <h1>Project time!</h1>
+        <button className="btn btn-outline-info" onClick={topFunction} id="myBtn" title="Go to top">Go Top!</button>
+        <div className="row">
+            <Link className="btn btn-outline-info text" id="button" to="/projects">Go back!</Link>
+        </div>
         <Card projectName="PytelBot" link="http://github.com/alkesst/pytelbot" title="Playful bot in telegram"
               tryProject="https://telegram.me/pytel_bot" image={pytel}>
             Telegram bot whose main target is to entertain its users. It has got a lot of memes, funny videos

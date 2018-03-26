@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import demo1 from '../resources/Dev-Chat demo.png';
 import demo2 from '../resources/Dev-Chat demo2.png';
 import demo3 from '../resources/Dev-Chat demo3.png';
@@ -10,9 +11,17 @@ class DevChat extends Component {
     }
 
     render() {
+        function topFunction() {
+            window.scrollTo(0,0);
+        }
+
         return (
             <div>
                 <h1>Dev-Chat</h1>
+                <button className="btn btn-outline-info" onClick={topFunction} id="myBtn" title="Go to top">Go Top!</button>
+                <div className="row">
+                    <Link className="btn btn-outline-info text" id="button" to="/MyProjects">Go back!</Link>
+                </div>
                 <h5 className="text-justify">What is Dev-Chat?</h5>
                 <p className="text-justify">
                     DevChat is a console network chat created using C and SSL. The chat is composed by a server and a
