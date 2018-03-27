@@ -35,15 +35,17 @@ const Card = ({projectName, title, text, link, tryProject, children, moreInfo, i
     </div>;
 
 
-/*window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
+    if (document.getElementById("myBtn") != null) {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
     }
-}*/
+}
 
 function topFunction() {
     window.scrollTo(0,0);
@@ -86,7 +88,7 @@ export default () =>
             Is actually this page. Made with React, Redux and Bootstrap. Just a little page to let people know me and learn
             some JavaScript and its libraries.
         </Card>
-        <Card projectName="RPI Assembly" link="https://github.com/RPIAssembly"
+        <Card projectName="RPI Assembly" link="https://github.com/alkesst/RPIAssembly"
               title="Assembly code for ARM Architecture using a Raspberry Pi">
             Is just some exercises made in class about assembly code for ARM Architecture. In this project you will find
             code that uses an external library (wiringPi pins) and code that sets manually the output and input pins with

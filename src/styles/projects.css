@@ -40,7 +40,6 @@
 }
 
 #myBtn {
-    /*display: none;*/
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -57,5 +56,5 @@
 
 #myBtn:hover {
     background-color: #24A2B7;
-    color: white;/* Add a dark-grey background on hover */
+    color: white;
 }
