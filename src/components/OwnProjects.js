@@ -39,12 +39,16 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.getElementById("myBtn") != null) {
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        if (document.documentElement.scrollTop === 0 && document.body.scrollTop === 0){
+            document.getElementById("myBtn").style.display = "none";
+        }
+        if ((document.body.scrollTop > 100 || document.documentElement.scrollTop > 100)) {
             document.getElementById("myBtn").style.display = "block";
         } else {
             document.getElementById("myBtn").style.display = "none";
         }
     }
+
 }
 
 function topFunction() {
