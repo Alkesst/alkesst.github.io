@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import hw from '../resources/HackersWeek.png';
-import youtubeAudio from '../resources/youtubeAudio.png';
+import youtubeAudio from '../resources/new.png';
 import projectStyle from '../styles/projects.css';
+import topicFriends from '../resources/topicFriends.png';
 
 const Card = ({projectName, title, text, link, tryProject, children, moreInfo, image }) =>
     <div className="mb-3" id="projects" style={projectStyle}>
@@ -43,6 +44,21 @@ export default () =>
         <div className="row">
             <Link className="btn btn-outline-info text" id="button" to="/projects">Go back!</Link>
         </div>
+        <Card projectName="Youtube Audio" link="https://github.com/RaulWhite/youtubeAudio"
+              title="Web where you can listen the audio from youtube videos" tryProject="https://majorcadevs.github.io/ytAudio/"
+              image={youtubeAudio}>
+            Frontend made with React using Bootstrap 4 and a bit of imagination and creativity. It works
+            with <a target="_blank" rel="noreferrer noopener"
+                    href="https://github.com/melchor629/youtubedl-audio-api">youtubedl Audio Api</a> made
+            by <a target="_blank" rel="noreferrer noopener"
+                  href="https://melchor9000.me">Melchor Garau</a>. The author of the original idea
+            is <a target="_blank" rel="noreferrer noopener"
+                  href="https://github.com/RaulWhite">Raúl Blanco</a>.
+        </Card>
+        <Card projectName="TopicFriends" link="https://github.com/TopicFriends/TopicFriends"
+              tryProject="https://topicfriends.org" image={topicFriends}>
+            Social Network that connects people based on shared actionable interests and locations.
+        </Card>
         <Card projectName="HackersWeek" link="https://github.com/ConsejoInfUMA/HackersWeekMalaga"
               tryProject="https://hackersweek.es"
               title="Official webpage for the Hackers Week event in Málaga" image={hw}>
@@ -54,16 +70,5 @@ export default () =>
             I dont even know if "Council of students of the higher technical engineering school of computer science"
             is correct. I'm doing this project with some
             grade colleagues.
-        </Card>
-        <Card projectName="Youtube Audio" link="https://github.com/RaulWhite/youtubeAudio"
-              title="Web where you can listen the audio from youtube videos" tryProject="https://raul.ml/ytAudio/"
-              image={youtubeAudio}>
-            Frontend made with React using Bootstrap 4 and a bit of imagination and creativity. It works
-            with <a target="_blank" rel="noreferrer noopener"
-                    href="https://github.com/melchor629/youtubedl-audio-api">youtubedl Audio Api</a> made
-            by <a target="_blank" rel="noreferrer noopener"
-                  href="https://melchor9000.me">Melchor Garau</a>. The author of the original idea
-            is <a target="_blank" rel="noreferrer noopener"
-                  href="https://github.com/RaulWhite">Raúl Blanco</a>.
         </Card>
     </div>

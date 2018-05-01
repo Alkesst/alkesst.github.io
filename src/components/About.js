@@ -35,11 +35,11 @@ export default () =>
             <p>
                 Besides that, I've been collaborating with
                 the <a href="https://twitter.com/ConsejoInfUma" target="_blanck" rel="noopener noreferrer">
-                    Students Council of the Higher School of Computer Engineering</a>
-                , organizing events such as
-                the <a href="https://twitter.com/HackersWeek" target="_blankc" rel="noopener noreferrer">
+                    GDG Malaga</a> organizing events such as
+                the <a href="https://hackersweek.es" target="_blankc" rel="noopener noreferrer">
                     HackersWeek
-                </a> and little workshops like Raspberry Pi tutorials for rookies.
+                </a>, little workshops like Raspberry Pi tutorials for rookies and talks about
+                telegram bots with python and docker.
             </p>
         </div>
         <div className="align-items-center" id='bigOne' style={aboutStyle}>

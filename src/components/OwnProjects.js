@@ -87,8 +87,8 @@ export default () =>
             Also it tweets every 21:35, 0:00, 3:14 and 4:20 their respective comments associated with that hours.
             It also reacts to some patterns such as "when te pasa".
         </Card>
-        <Card projectName="Alkesst's page" link="http://github.com/alkesst/alkesst.github.io" title="This page lol!"
-              tryProject="#/projects">
+        <Card projectName="Alkesst's page" link="https://github.com/alkesst/alkesst.github.io/tree/gh-pages"
+              title="This page lol!" tryProject="#/projects">
             Is actually this page. Made with React, Redux and Bootstrap. Just a little page to let people know me and learn
             some JavaScript and its libraries.
         </Card>
