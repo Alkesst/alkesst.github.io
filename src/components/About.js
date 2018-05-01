@@ -34,7 +34,7 @@ export default () =>
         <div className='col-12'>
             <p>
                 Besides that, I've been collaborating with
-                the <a href="https://twitter.com/ConsejoInfUma" target="_blanck" rel="noopener noreferrer">
+                the <a href="https://twitter.com/gdgmalaga" target="_blanck" rel="noopener noreferrer">
                     GDG Malaga</a> organizing events such as
                 the <a href="https://hackersweek.es" target="_blankc" rel="noopener noreferrer">
                     HackersWeek

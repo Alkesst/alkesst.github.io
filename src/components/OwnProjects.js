@@ -5,6 +5,7 @@ import devChat from '../resources/Dev-Chat.png';
 import pytwe from '../resources/pytweBot.png';
 import hWorld from '../resources/firstWan.png';
 import projectStyle from '../styles/projects.css';
+import copinya from '../resources/Copinya.png';
 
 
 const Card = ({projectName, title, text, link, tryProject, children, moreInfo, image }) =>
@@ -74,6 +75,9 @@ export default () =>
             username requested by the server, and given by the user. The client, as well,
             handles editing non-sent messages. Project made
             with <a href="http://melchor9000.me" target="_blank" rel="noreferrer noopener">Melchor Garau</a>.
+        </Card>
+        <Card projectName="Copinya Shell" link="http://github.com/alkesst/copinya" image={copinya}>
+            Copinya is a custom Unix Shell. This is a project for the degree.
         </Card>
         <Card projectName="Dev-Chat Desktop" link="https://github.com/Alkesst/Dev-ChatDesktop"
               image={hWorld} moreInfo="/DevChatDesktop"

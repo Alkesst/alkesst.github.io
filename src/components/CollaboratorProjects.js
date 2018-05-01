@@ -17,8 +17,12 @@ const Card = ({projectName, title, text, link, tryProject, children, moreInfo, i
                 <h2 className="card-title">{projectName}</h2>
                 <h6 className="card-subtitle mb-2">{title}</h6>
                 <p className="card-text">{text}{children}</p>
-                <a href={link} target="_blank" rel="noreferrer noopener" className="card-link btn btn-outline-dark">
-                    See project</a>
+                {link ?
+                    <a href={link} target="_blank" rel="noreferrer noopener" className="card-link btn btn-outline-dark">
+                        See project</a>
+                    :
+                    null
+                }
                 {tryProject?
                     <a className="card-link btn btn-outline-dark"
                        href={tryProject} target="_blank" rel="noreferrer noopener">Try this project</a>
@@ -58,6 +62,12 @@ export default () =>
         <Card projectName="TopicFriends" link="https://github.com/TopicFriends/TopicFriends"
               tryProject="https://topicfriends.org" image={topicFriends}>
             Social Network that connects people based on shared actionable interests and locations.
+        </Card>
+        <Card projectName="Go4Me">
+            Go4Me is an app for lazy people or handicaped people. Its main target is to make users contact each other
+            to reach an agreement and one of them sends an order to the other one.
+            Currently is under construction and the repo must be private until we finish because this is a project for
+            the degree.
         </Card>
         <Card projectName="HackersWeek" link="https://github.com/ConsejoInfUMA/HackersWeekMalaga"
               tryProject="https://hackersweek.es"
