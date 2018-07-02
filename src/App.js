@@ -18,7 +18,7 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1 className="App-title">Alkesst's Page</h1>
+                    <h1 className="App-title">Aleks' Portfolio</h1>
                 </header>
                 <nav className="App-Nav navbar-expand-lg navbar-dark">
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -26,7 +26,7 @@ class App extends Component {
                             aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"/>
                     </button>
-                    <div className="collapse navbar-collapse">
+                    <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className={`nav-item ${location.pathname === "/" ? "active" : ""}`}>
                                 <Link className="nav-link" to="/">Home</Link>

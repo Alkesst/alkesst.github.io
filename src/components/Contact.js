@@ -7,20 +7,21 @@ import telegram from '../telegramLogo.png';
 import linkedIn from '../linkedInLogo.png';
 import lastFm from '../lastfmLogo.png';
 
-const Card = ({ imgUrl, text, link, description }) => <div className="col-12 col-sm-2" id="contact">
-    <div className="card">
-        <a href={link} target="_blank" className="btn btn-outline-dark" rel="noopener noreferrer" id="contact" style={contact}>
-            <div className="square">
-                <div className="square-content">
-                    <img className="card-img-top" src={imgUrl} alt={description}/>
+const Card = ({ imgUrl, text, link, description }) =>
+    <div className="col-12 col-sm-6 col-md-4 col-lg-4" id="contact">
+        <div className="card">
+            <a href={link} target="_blank" className="btn btn-outline-dark" rel="noopener noreferrer" id="contact" style={contact}>
+                <div className="square">
+                    <div className="square-content">
+                        <img className="card-img-top" src={imgUrl} alt={description}/>
+                    </div>
                 </div>
-            </div>
-            <div className="card-body">
-                <p className="card-text">{text}</p>
-            </div>
-        </a>
-    </div>
-</div>;
+                <div className="card-body">
+                    <p className="card-text">{text}</p>
+                </div>
+            </a>
+        </div>
+    </div>;
 
 export default () =>
     <div style={contact}>
