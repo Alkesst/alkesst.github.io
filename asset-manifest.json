@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.1d0cd418.css",
-  "main.css.map": "static/css/main.1d0cd418.css.map",
-  "main.js": "static/js/main.3b1d6596.js",
-  "main.js.map": "static/js/main.3b1d6596.js.map",
+  "main.css": "static/css/main.30efe63f.css",
+  "main.css.map": "static/css/main.30efe63f.css.map",
+  "main.js": "static/js/main.309314ee.js",
+  "main.js.map": "static/js/main.309314ee.js.map",
   "static/media/Copinya.png": "static/media/Copinya.ecbab4b5.png",
   "static/media/Dev-Chat demo.png": "static/media/Dev-Chat demo.5a86de1b.png",
   "static/media/Dev-Chat demo2.png": "static/media/Dev-Chat demo2.baa4afef.png",
@@ -18,6 +18,5 @@
   "static/media/pytel.png": "static/media/pytel.910f2264.png",
   "static/media/pytweBot.png": "static/media/pytweBot.499437f8.png",
   "static/media/telegramLogo.png": "static/media/telegramLogo.f99768fe.png",
-  "static/media/topicFriends.png": "static/media/topicFriends.a12aa9f8.png",
   "static/media/twitterLogo.png": "static/media/twitterLogo.2451ce30.png"
 }
