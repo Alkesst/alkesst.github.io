@@ -30,7 +30,7 @@ export default () =>
         <h2>Feel free to contact me at any time!</h2>
         <div className="row">
             <Card imgUrl={octocat} text="GitHub" link="http://www.github.com/alkesst" description="GitHub octocat"/>
-            <Card imgUrl={twitter} text="Twitter" link="http://twitter.com/alkesstt" description="Twitter logo"/>
+            <Card imgUrl={twitter} text="Twitter" link="http://twitter.com/ksgamad" description="Twitter logo"/>
             <Card imgUrl={gmail} text="Gmail" link="mailto:alec.augal@gmail.com" description="Gmail logo"/>
             <Card imgUrl={telegram} text="telegram" link="https://telegram.me/alkesst" description="Telegram logo"/>
             <Card imgUrl={linkedIn} text="linkedIn" link="https://es.linkedin.com/in/alejandro-garau-madrigal-54224114b"

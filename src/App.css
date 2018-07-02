@@ -6,8 +6,15 @@
     font-family: 'Lora', serif;
 }
 
-nav{
+.App-Nav {
+    position: sticky;
     background: #008975;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    display: flex;
 }
 
 .App-header {

@@ -9,7 +9,7 @@ export default () =>
         <div className="row">
             <div className="col">
                 <div className="card mb-3" id="projects" style={projectStyle}>
-                    <div className="card-body">
+                    <div className="card-body cover">
                         <h5>
                             My own projects!
                         </h5>

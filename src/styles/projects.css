@@ -14,6 +14,15 @@
     /*background: #008975;*/
 }
 
+#projects .cover {
+    background-size: cover;
+}
+
+.card-footer {
+    background-color: navajowhite;
+    border-top: 0 solid navajowhite;
+}
+
 #projects .card{
     border: none;
 }
