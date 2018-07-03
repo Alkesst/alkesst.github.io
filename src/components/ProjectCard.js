@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import projectStyle from '../styles/projects.css';
 
 export const Card = ({projectName, title, text, link, tryProject, children, moreInfo, image }) =>
-    <div className="mb-3 col-12 col-md-6 col-lg-4" id="projects" style={projectStyle}>
+    <div className="mb-3 col-12 col-md-6 col-lg-4 mb-4 mt-3" id="projects" style={projectStyle}>
         <div className="card h-100" >
             <div className="card-body">
                 {image?

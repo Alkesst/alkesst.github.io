@@ -54,7 +54,7 @@ export default () =>
                 Copinya is a custom Unix Shell. This is a project for the degree.
             </Card>
             <Card projectName="Dev-Chat Desktop" link="https://github.com/Alkesst/Dev-ChatDesktop"
-                  image={hWorld} moreInfo="/DevChatDesktop"
+                  image={hWorld}
                   title="A chat made by developers, for developers. Desktop Edition">
                 A <a href="http://github.com/alkesst/dev-chat" rel="noreferrer noopener">Dev-Chat</a> interface being made
                 for desktop with Qt5 and C++11. Currently under construction. (Example in the right window).
@@ -80,6 +80,13 @@ export default () =>
                   title="A TDD Introduction">
                 A project which main target is learn TDD and requirements engineering using jUnit 5
                 and common problems to solve using this methodology.
+            </Card>
+            <Card projectName="pySockets" link="https://github.com/alkesst/pysockets" title="TCP Sockets with Python and
+            Caesar cypher" moreInfo="/pySockets">
+                In this project you will find a little server that cyphers messages from some clients. The server replies
+                with the message cyphered using the <a target="_blank" rel="noreferrer noopener"
+                       href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar Cypher method</a>. This project main target
+                is to learn how does TCP sockets work in Python.
             </Card>
         </div>
     </div>

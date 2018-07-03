@@ -1,14 +1,14 @@
 import React from 'react';
-import octocat from '../Octocat.png';
-import twitter from '../twitterLogo.png';
+import octocat from '../resources/Octocat.png';
+import twitter from '../resources/twitterLogo.png';
 import contact from '../styles/contact.css';
-import gmail from '../gmailLogo.png';
-import telegram from '../telegramLogo.png';
-import linkedIn from '../linkedInLogo.png';
-import lastFm from '../lastfmLogo.png';
+import gmail from '../resources/gmailLogo.png';
+import telegram from '../resources/telegramLogo.png';
+import linkedIn from '../resources/linkedInLogo.png';
+import lastFm from '../resources/lastfmLogo.png';
 
 const Card = ({ imgUrl, text, link, description }) =>
-    <div className="col-12 col-sm-6 col-md-4 col-lg-4" id="contact">
+    <div className="col-12 col-sm-6 col-md-4 col-lg-4 mb-4 mt-2" id="contact">
         <div className="card">
             <a href={link} target="_blank" className="btn btn-outline-dark" rel="noopener noreferrer" id="contact" style={contact}>
                 <div className="square">
