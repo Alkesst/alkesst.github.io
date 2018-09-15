@@ -8,7 +8,6 @@ import DevChat from "./components/DevChat";
 import PySockets from "./components/pySockets";
 import MyProjects from "./components/OwnProjects.js";
 import CollabProjects from "./components/CollaboratorProjects";
-import SpecialThanks from "./components/SpecialThanks";
 
 export default () => (
     <div>
@@ -20,5 +19,4 @@ export default () => (
         <Route path="/pySockets" component={PySockets}/>
         <Route path="/MyProjects" component={MyProjects}/>
         <Route path="/CollabProjects" component={CollabProjects}/>
-        <Route path="/SpecialThanks" component={SpecialThanks}/>
     </div>);

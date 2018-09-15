@@ -21,13 +21,13 @@ export default () =>
         </div>
         <div className='col-6' id="about" style={aboutStyle}>
             <p>
-                I moved to Málaga in 2016 to study in the university and I'm currently studying my second year
+                I moved to Málaga in 2016 to study in the university and I'm currently studying my third year
                 of Software Engineering degree at the University of Málaga.
             </p>
         </div>
         <div className='col-6'>
             <p>
-                Apart from programming I also like to play some videogames such as Starcraft 2 or Hearthstone and in my
+                Apart from programming I also like to play some videogames such as Starcraft 2 or Slay The Spire and in my
                 spare time I usually play the electric guitar.
             </p>
         </div>

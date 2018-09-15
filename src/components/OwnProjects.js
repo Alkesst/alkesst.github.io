@@ -5,6 +5,7 @@ import devChat from '../resources/Dev-Chat.png';
 import pytwe from '../resources/pytweBot.png';
 import hWorld from '../resources/firstWan.png';
 import copinya from '../resources/Copinya.png';
+import alkesst from '../resources/alkesst.png';
 import { Card } from './ProjectCard';
 
 
@@ -66,8 +67,8 @@ export default () =>
                 It also reacts to some patterns such as "when te pasa".
             </Card>
             <Card projectName="Alkesst's page" link="https://github.com/alkesst/alkesst.github.io/tree/gh-pages"
-                  title="This page lol!" tryProject="#/projects">
-                Is actually this page. Made with React, Redux and Bootstrap. Just a little page to let people know me and learn
+                  title="This page lol!" tryProject="#/" image={alkesst}>
+                Is actually this page. Made with React and Bootstrap. Just a little page to let people know me and learn
                 some JavaScript and its libraries.
             </Card>
             <Card projectName="RPI Assembly" link="https://github.com/alkesst/RPIAssembly"
@@ -78,8 +79,8 @@ export default () =>
             </Card>
             <Card projectName="TDD Testing" link="https://github.com/alkesst/tddtesting"
                   title="A TDD Introduction">
-                A project which main target is learn TDD and requirements engineering using jUnit 5
-                and common problems to solve using this methodology.
+                A project which main target is learn TDD and requirements engineering using jUnit 5 (Java),
+                unittest (Python) and common problems to solve using this methodology.
             </Card>
             <Card projectName="pySockets" link="https://github.com/alkesst/pysockets" title="TCP Sockets with Python and
             Caesar cypher" moreInfo="/pySockets">

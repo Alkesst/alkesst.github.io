@@ -34,7 +34,7 @@ export default () =>
             <Card imgUrl={twitter} text="Twitter" link="http://twitter.com/ksgamad" description="Twitter logo"/>
             <Card imgUrl={gmail} text="Gmail" link="mailto:alec.augal@gmail.com" description="Gmail logo"/>
             <Card imgUrl={telegram} text="telegram" link="https://telegram.me/alkesst" description="Telegram logo"/>
-            <Card imgUrl={linkedIn} text="linkedIn" link="https://es.linkedin.com/in/alejandro-garau-madrigal-54224114b"
+            <Card imgUrl={linkedIn} text="linkedIn" link="https://www.linkedin.com/in/alejandro-garau-madrigal-54224114b/"
                   description="LinkedIn Logo"/>
             <Card imgUrl={lastFm} text="LastFm" link="https://www.last.fm/user/A13k5G"
                 description="Steam Logo"/>

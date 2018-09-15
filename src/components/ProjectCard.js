@@ -11,7 +11,7 @@ export const Card = ({projectName, title, text, link, tryProject, children, more
                     :
                     null
                 }
-                <h2 className="card-title">{projectName}</h2>
+                <h2 className="card-title mt-2">{projectName}</h2>
                 <h6 className="card-subtitle mb-2">{title}</h6>
                 <p className="card-text">{text}{children}</p>
             </div>
